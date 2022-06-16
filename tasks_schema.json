@@ -1,0 +1,36 @@
+{
+    "type": "object",
+    "properties": {
+        "id": "integer",
+        "type": "integer",
+        "account": {
+            "type": "object",
+            "properties": {}
+        },
+        "creator": "integer",
+        "description": "",
+        "reminder_date": "",
+        "email": null,
+        "company": null,
+        "completed": "boolean",
+        "completor": "integer",
+        "completion_date": "string",
+        "creation_date": "",
+        "modification_date": "",
+        "assignees": {
+            "type": "array",
+            "properties": {
+                "id": {
+                    "type": "integer"
+                },
+                "email": {
+                    "type": "string"
+                },
+                "name": {
+                    "type": "string"
+                }
+            }
+        },
+        "can_edit": "boolean"
+    }
+}
