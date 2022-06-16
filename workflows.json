@@ -1,0 +1,24 @@
+{
+    "type": "object",
+    "properties": {
+        "id": "integer",
+        "name": "string",
+        "team": "integer",
+        "status": "string",
+        "status_message": "string or null",
+        "archived": "boolean",
+        "created_by": "integer",
+        "schedule_date": "string",
+        "last_modified_by": "integer",
+        "creation_date": "",
+        "modification_date": "",
+        "continuous": "boolean",
+        "exit_after_days": "integer",
+        "schedule_time_start": "string",
+        "schedule_time_end": "string",
+        "creator_name": "string",
+        "record_type": "string",
+        "goal": "string",
+        "step_amount": "integer"
+    }
+}
