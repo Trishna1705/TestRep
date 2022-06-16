@@ -1,0 +1,16 @@
+Definition for Tanasvi and Parth:
+Tap Salesflare: https://api.salesflare.com/docs#section/Introduction
+
+- Setup trial instance.
+- Select 15+ fields for each stream, read the doc and define Primary Key and replication key for each stream
+- Collect data for the below 4 streams:
+Account
+Tasks
+Contacts
+Workflows
+- Add proper Error handling and back off for 429 and 500
+- Add unit tests for each function
+- Add Integration tests
+- Implementation must be in the class-based format(Reference: Tap-Mixpanel, Tap-active campaign)
+
+Reference for creating tap folder structure: https://github.com/singer-io/singer-tap-template
