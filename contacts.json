@@ -1,0 +1,413 @@
+{
+    "type": [
+        "null",
+        "object"
+    ],
+    "properties": {
+        "id": {
+            "type": [
+                "null",
+                "integer"
+            ]
+        },
+        "first_name": {
+            "type": [
+                "null",
+                "string"
+            ]
+        },
+        "last_name": {
+            "type": [
+                "null",
+                "string"
+            ]
+        },
+        "display_name": {
+            "type": [
+                "null",
+                "string"
+            ]
+        },
+        "avatar": {
+            "type": [
+                "null",
+                "string"
+            ]
+        },
+        "job_title": {
+            "type": [
+                "null",
+                "string"
+            ]
+        },
+        "city": {
+            "type": [
+                "null",
+                "string"
+            ]
+        },
+        "state": {
+            "type": [
+                "null",
+                "string"
+            ]
+        },
+        "zipcode": {
+            "type": [
+                "null",
+                "string"
+            ]
+        },
+        "country": {
+            "type": [
+                "null",
+                "string"
+            ]
+        },
+        "email": {
+            "type": [
+                "null",
+                "string"
+            ]
+        },
+        "emails": {
+            "type": [
+                "null",
+                "array"
+            ],
+            "items": {
+                "type": [
+                    "null",
+                    "object"
+                ],
+                "properties": {
+                    "id": {
+                        "type": [
+                            "null",
+                            "integer"
+                        ]
+                    },
+                    "value": {
+                        "type": [
+                            "null",
+                            "string"
+                        ]
+                    },
+                    "is_primary": {
+                        "type": [
+                            "null",
+                            "boolean"
+                        ]
+                    },
+                    "label": {
+                        "type": [
+                            "null",
+                            "string"
+                        ]
+                    },
+                    "_destroy": {
+                        "type": [
+                            "null",
+                            "boolean"
+                        ]
+                    }
+                }
+            }
+        },
+        "time_zone": {
+            "type": [
+                "null",
+                "string"
+            ]
+        },
+        "work_number": {
+            "type": [
+                "null",
+                "string"
+            ]
+        },
+        "mobile_number": {
+            "type": [
+                "null",
+                "string"
+            ]
+        },
+        "address": {
+            "type": [
+                "null",
+                "string"
+            ]
+        },
+        "last_seen": {
+            "type": [
+                "null",
+                "string"
+            ],
+            "format": "date-time"
+        },
+        "lead_score": {
+            "type": [
+                "null",
+                "integer"
+            ]
+        },
+        "last_contacted": {
+            "type": [
+                "null",
+                "string"
+            ],
+            "format": "date-time"
+        },
+        "open_deals_amount": {
+            "type": [
+                "null",
+                "string"
+            ]
+        },
+        "won_deals_amount": {
+            "type": [
+                "null",
+                "string"
+            ]
+        },
+        "links": {
+            "type": [
+                "null",
+                "array"
+            ],
+            "items": {
+                "type": [
+                    "null",
+                    "object"
+                ],
+                "properties": {
+                    "conversations": {
+                        "type": [
+                            "null",
+                            "string"
+                        ]
+                    },
+                    "timeline_feeds": {
+                        "type": [
+                            "null",
+                            "string"
+                        ]
+                    },
+                    "document_associations": {
+                        "type": [
+                            "null",
+                            "string"
+                        ]
+                    },
+                    "notes": {
+                        "type": [
+                            "null",
+                            "string"
+                        ]
+                    },
+                    "tasks": {
+                        "type": [
+                            "null",
+                            "string"
+                        ]
+                    },
+                    "appointments": {
+                        "type": [
+                            "null",
+                            "string"
+                        ]
+                    },
+                    "reminders": {
+                        "type": [
+                            "null",
+                            "string"
+                        ]
+                    },
+                    "duplicates": {
+                        "type": [
+                            "null",
+                            "string"
+                        ]
+                    },
+                    "connections": {
+                        "type": [
+                            "null",
+                            "string"
+                        ]
+                    }
+                }
+            }
+        },
+        "created_at": {
+            "type": [
+                "null",
+                "string"
+            ],
+            "format": "date-time"
+        },
+        "updated_at": {
+            "type": [
+                "null",
+                "string"
+            ],
+            "format": "date-time"
+        },
+        "keyword": {
+            "type": [
+                "null",
+                "string"
+            ]
+        },
+        "medium": {
+            "type": [
+                "null",
+                "string"
+            ]
+        },
+        "last_contacted_mode": {
+            "type": [
+                "null",
+                "string"
+            ]
+        },
+        "recent_note": {
+            "type": [
+                "null",
+                "string"
+            ]
+        },
+        "won_deals_count": {
+            "type": [
+                "null",
+                "integer"
+            ]
+        },
+        "open_deals_count": {
+            "type": [
+                "null",
+                "integer"
+            ]
+        },
+        "last_assigned_at": {
+            "type": [
+                "null",
+                "string"
+            ],
+            "format": "date-time"
+        },
+        "tags": {
+            "type": [
+                "null",
+                "array"
+            ],
+            "items": {
+                "type": [
+                    "null",
+                    "object"
+                ]
+            }
+        },
+        "facebook": {
+            "type": [
+                "null",
+                "string"
+            ]
+        },
+        "twitter": {
+            "type": [
+                "null",
+                "string"
+            ]
+        },
+        "linkedin": {
+            "type": [
+                "null",
+                "string"
+            ]
+        },
+        "is_deleted": {
+            "type": [
+                "null",
+                "boolean"
+            ]
+        },
+        "team_user_ids": {
+            "type": [
+                "null",
+                "integer"
+            ]
+        },
+        "external_id": {
+            "type": [
+                "null",
+                "integer"
+            ]
+        },
+        "work_email": {
+            "type": [
+                "null",
+                "string"
+            ]
+        },
+        "subscription_status": {
+            "type": [
+                "null",
+                "integer"
+            ]
+        },
+        "subscription_types": {
+            "type": [
+                "null",
+                "string"
+            ]
+        },
+        "customer_fit": {
+            "type": [
+                "null",
+                "integer"
+            ]
+        },
+        "whatsapp_subscription_status": {
+            "type": [
+                "null",
+                "integer"
+            ]
+        },
+        "sms_subscription_status": {
+            "type": [
+                "null",
+                "integer"
+            ]
+        },
+        "has_duplicates": {
+            "type": [
+                "null",
+                "boolean"
+            ]
+        },
+        "duplicates_searched_today": {
+            "type": [
+                "null",
+                "boolean"
+            ]
+        },
+        "has_connections": {
+            "type": [
+                "null",
+                "boolean"
+            ]
+        },
+        "connections_searched_today": {
+            "type": [
+                "null",
+                "boolean"
+            ]
+        },
+        "phone_numbers": {
+            "type": [
+                "null",
+                "array"
+            ]
+        }
+    }
+}
